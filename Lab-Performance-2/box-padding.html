@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color:red;
+        }
+        .outer{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            
+        }
+        #inner{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            
+    </style>
+</head>
+<body>
+    <div class="outer" style="padding-left: 20px; padding-top: 5px;">
+        <div id="inner">
+            <p>
+                Hello World
+            </p>
+        </div>
+    </div>
+
+    <div class="outer" style="align-content: end; padding-left: 20px; padding-bottom: 20px;">
+        <div id="inner" style="">
+            <p>
+                Hello World
+            </p>
+        </div>
+    </div>
+
+    <div class="outer" style="padding-right: 10px; padding-top: 5px;">
+        <div id="inner">
+            <p>
+                Hello World
+            </p>
+        </div>
+    </div>
+</body>
+</html>
